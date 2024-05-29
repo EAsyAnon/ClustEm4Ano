@@ -1,6 +1,5 @@
-# anonymization
-Implementation and overview of methods for data anonymization. The implementations restrict on tabular data
-such as microdata. The work was done mostly done in context of the project **[EAsyAnon](#acknowledgements)**.
+# ClustEm4Ano
+Implementation of methods for data anonymization through generalization and suppression. The implementations restrict on tabular data resp. microdata. The work was mostly done in context of the project **[EAsyAnon](#acknowledgements)**.
 
 
 ## Getting started
