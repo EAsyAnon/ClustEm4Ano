@@ -1,0 +1,2 @@
+num_suppressed_records,num_records,max_group_size,avg_group_size,k,l,t,perc_recs,c_avg,bagging_acc,random_forest_acc,boosting_acc,bagging_auc,random_forest_auc,boosting_auc
+0,32561,45,2.1573577154972505,1,1,0.7591904425539756,1.0,2.1573577154972505,0.8653031140593329,0.8642589521528161,0.865794484368282,0.7782946516895658,0.7775213010932982,0.7922653335566475

@@ -1,0 +1,16 @@
+10th,"{10th, 11th, 12th}","{10th, 11th, 12th, 1st-4th, 5th-6th}",*
+11th,"{10th, 11th, 12th}","{10th, 11th, 12th, 1st-4th, 5th-6th}",*
+12th,"{10th, 11th, 12th}","{10th, 11th, 12th, 1st-4th, 5th-6th}",*
+1st-4th,"{1st-4th, 5th-6th}","{10th, 11th, 12th, 1st-4th, 5th-6th}",*
+5th-6th,"{1st-4th, 5th-6th}","{10th, 11th, 12th, 1st-4th, 5th-6th}",*
+7th-8th,"{7th-8th, 9th, Assoc-acdm}","{7th-8th, 9th, Assoc-acdm, Assoc-voc, Bachelors}",*
+9th,"{7th-8th, 9th, Assoc-acdm}","{7th-8th, 9th, Assoc-acdm, Assoc-voc, Bachelors}",*
+Assoc-acdm,"{7th-8th, 9th, Assoc-acdm}","{7th-8th, 9th, Assoc-acdm, Assoc-voc, Bachelors}",*
+Assoc-voc,"{Assoc-voc, Bachelors}","{7th-8th, 9th, Assoc-acdm, Assoc-voc, Bachelors}",*
+Bachelors,"{Assoc-voc, Bachelors}","{7th-8th, 9th, Assoc-acdm, Assoc-voc, Bachelors}",*
+Doctorate,"{Doctorate, HS-grad, Masters}","{Doctorate, HS-grad, Masters, Preschool, Prof-school}",*
+HS-grad,"{Doctorate, HS-grad, Masters}","{Doctorate, HS-grad, Masters, Preschool, Prof-school}",*
+Masters,"{Doctorate, HS-grad, Masters}","{Doctorate, HS-grad, Masters, Preschool, Prof-school}",*
+Preschool,"{Preschool, Prof-school}","{Doctorate, HS-grad, Masters, Preschool, Prof-school}",*
+Prof-school,"{Preschool, Prof-school}","{Doctorate, HS-grad, Masters, Preschool, Prof-school}",*
+Some-college,{Some-college},{Some-college},*

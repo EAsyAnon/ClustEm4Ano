@@ -1,0 +1,7 @@
+Married-AF-spouse,"{Married-AF-spouse}","{Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}",*
+Widowed,"{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Separated, Divorced}",*
+Married-civ-spouse,"{Married-civ-spouse}","{Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}",*
+Never-married,"{Never-married}","{Never-married}","{Never-married}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}",*
+Divorced,"{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Divorced}","{Widowed, Separated, Divorced}",*
+Separated,"{Separated}","{Separated}","{Separated}","{Separated}","{Widowed, Separated, Divorced}",*
+Married-spouse-absent,"{Married-spouse-absent}","{Married-spouse-absent}","{Married-spouse-absent, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}","{Married-spouse-absent, Never-married, Married-AF-spouse, Married-civ-spouse}",*

@@ -1,0 +1,5 @@
+Amer-Indian-Eskimo,"{Amer-Indian-Eskimo}","{Amer-Indian-Eskimo}","{Amer-Indian-Eskimo}",*
+Asian-Pac-Islander,"{Asian-Pac-Islander}","{Asian-Pac-Islander}","{White, Asian-Pac-Islander, Black, Other}",*
+Black,"{White, Black}","{White, Black, Other}","{White, Asian-Pac-Islander, Black, Other}",*
+Other,"{Other}","{White, Black, Other}","{White, Asian-Pac-Islander, Black, Other}",*
+White,"{White, Black}","{White, Black, Other}","{White, Asian-Pac-Islander, Black, Other}",*
