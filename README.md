@@ -61,7 +61,9 @@ pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11
 
 ## Reproducibility:
 
-create_vgh_adult.py: Creates values generalization hierarchies (VGHs) for relevant attributes in the Adult dataset
+create_vgh_adult.py: 
+- Creates values generalization hierarchies (VGHs) for relevant attributes in the Adult dataset
+- Might need to specify keys and tokens in \preprocess
 
 anonymized/experiment_0: 
 - Contains created VGHs depending on clustering and embedding used
