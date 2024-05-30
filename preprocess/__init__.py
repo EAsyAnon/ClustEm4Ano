@@ -34,7 +34,7 @@ from transformers import BertModel, BertTokenizer
 from sentence_transformers import SentenceTransformer
 
 # Hugging Face
-os.environ['HF_TOKEN'] = "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"  # "<your token here>"
+os.environ['HF_TOKEN'] = "hf_..."  # "<your token here>"
 
 
 class Vectorize:
