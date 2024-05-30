@@ -41,8 +41,8 @@ class Vectorize:
     def __init__(self, embedding):
         self.embedding = embedding
         self.sentence_embedding = False
-        self.openai_client = OpenAI(api_key="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")
-        self.mistral_client = MistralClient(api_key="gWH4RZAw90AiWJHMfvJvjjvh1rf7bF0M")
+        self.openai_client = OpenAI(api_key="sk-...")
+        self.mistral_client = MistralClient(api_key="...")
 
         if self.embedding in ['multi-qa-mpnet-base-dot-v1', 'average_word_embeddings_glove.6B.300d',
                               'average_word_embeddings_komninos', 'msmarco-bert-base-dot-v5',
