@@ -18,7 +18,7 @@ dataset_name = "adult"
 def plot_embeddings(dataset_name, embedding_name, column_name, vectors, raw_values):
     raw_values = [string.lstrip() for string in raw_values]
 
-    folder_name = "embedding_pics/adult/" + column_name
+    folder_name = "anonymized/experiment_0/embedding_pics" + column_name
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
         print(f'Folder "{folder_name}" has been created successfully.')
@@ -220,7 +220,7 @@ if __name__ == '__main__':
 
             # PLOT TSNE AND UMAP EMBEDDINGS
 
-            folder_name = "embedding_pics/adult/" + column_name
+            folder_name = "anonymized/experiment_0/embedding_pics/" + column_name
             if not os.path.exists(folder_name):
                 os.makedirs(folder_name)
                 print(f'Folder "{folder_name}" has been created successfully.')
@@ -235,7 +235,7 @@ if __name__ == '__main__':
 
             # PREPARE FOLDER
 
-            folder_name = "anonymized/adult/" + clustering + "/" + emb
+            folder_name = "anonymized/experiment_0/" + clustering + "/" + emb
 
             if not os.path.exists(folder_name):
                 os.makedirs(folder_name)
