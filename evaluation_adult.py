@@ -3,7 +3,7 @@ from csv import writer
 import pandas as pd
 import os
 
-from evaluate import save_status
+from evaluate.evaluate import save_status
 
 original_data_file_name = 'datasets/adult/adult.data'
 original_data = pd.read_csv(original_data_file_name, sep=",")
