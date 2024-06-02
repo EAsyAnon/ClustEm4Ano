@@ -9,7 +9,7 @@ import umap.umap_ as umap
 from scipy.cluster.hierarchy import dendrogram
 from sklearn.manifold import TSNE
 
-from cluster_attribute import get_kmeans_cluster, get_agglomerative_cluster, get_categories
+from cluster.cluster import get_kmeans_cluster, get_agglomerative_cluster, get_categories
 from preprocess.preprocess import preprocess_string, post_process_vectors
 
 dataset_name = "adult"
