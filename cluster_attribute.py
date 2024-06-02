@@ -16,7 +16,7 @@ def map(labels_1: List[int], labels_2: List[int]) -> List[int]:
 def get_kmeans_cluster(labels: List[int], n_clusters: int, vectors: List):
     kmeans = (KMeans(n_clusters=n_clusters, init='k-means++', algorithm='lloyd', n_init='auto'))
     kmeans.fit(np.array(vectors))
-    print(kmeans.labels_)
+    # print(kmeans.labels_)
     labels_categorized = kmeans.labels_
     cluster_centers = kmeans.cluster_centers_
     labels_categorized = map(labels, labels_categorized)
