@@ -1,7 +1,7 @@
 import pandas as pd
 import time
 import os
-from preprocess import Vectorize
+from preprocess.vectorize import Vectorize
 import numpy as np
 from matplotlib import pyplot as plt
 import seaborn as sns
@@ -10,7 +10,7 @@ from scipy.cluster.hierarchy import dendrogram
 from sklearn.manifold import TSNE
 
 from cluster_attribute import get_kmeans_cluster, get_agglomerative_cluster, get_categories
-from preprocess import preprocess_string, post_process_vectors
+from preprocess.preprocess import preprocess_string, post_process_vectors
 
 dataset_name = "adult"
 
@@ -182,9 +182,9 @@ if __name__ == '__main__':
     # workclass, education, marital-status, native-country, occupation, race, income, sex
     attributes = [13, 1, 3, 5, 13, 6, 8, 14, 9]
 
+    # keys needed for: 'text-embedding-3-large', 'text-embedding-3-small', 'mistral-embed'
     for emb in ['word2vec', 'BERT', 'word2vec', 'average_word_embeddings_glove.6B.300d', 'msmarco-bert-base-dot-v5',
-                'multi-qa-mpnet-base-dot-v1', 'text-embedding-3-large', 'text-embedding-3-small',
-                'mistral-embed', 'jinaai/jina-embeddings-v2-base-en', 'fasttext',
+                'multi-qa-mpnet-base-dot-v1', 'jinaai/jina-embeddings-v2-base-en', 'fasttext',
                 'average_word_embeddings_komninos', 'average_word_embeddings_levy_dependency',
                 'average_word_embeddings_glove.840B.300d']:
 
