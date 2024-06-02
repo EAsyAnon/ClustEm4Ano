@@ -33,29 +33,36 @@ pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11
 
 ```
 .
-├── anonymetrics       
+├── LICENSE
+├── README.md
+├── anonymetrics
+│   ├── __init__.py
 │   ├── anonymetrics.py
 │   ├── infometrics.py
-│   ├── __init__.py
 │   └── utilitymetrics.py
 ├── anonymized
 │   └── experiment_0
-├── cluster_attribute.py
-├── create_vgh.py
+├── cluster
+│   ├── __init__.py
+│   └── cluster.py
+├── create_vgh_adult.py
 ├── datasets
 │   └── adult
-├── embedding_pics
-│   └── adult
 ├── evaluate
+│   ├── __init__.py
+│   └── evaluate.py
 ├── evaluation_adult.py
-├── .gitignore
-├── __init__.py
 ├── intuition.ipynb
-├── LICENSE
 ├── preprocess
-├── README.md
+│   ├── __init__.py
+│   ├── preprocess.py
+│   └── vectorize.py
 ├── requirements.txt
 ├── test
+│   ├── __init__.py
+│   ├── test_anonymetrics.py
+│   ├── test_infometrics.py
+│   └── test_utilitymetrics.py
 
 ```
 
@@ -65,15 +72,18 @@ create_vgh_adult.py:
 - Creates values generalization hierarchies (VGHs) for relevant attributes in the Adult dataset
 - Might need to specify keys and tokens in \preprocess
 
-anonymized/experiment_0: 
-- Contains created VGHs depending on clustering and embedding used
-- Contains Java Code to anonymize Adult data using generated VGHs
-- Contains anonymized data
-
 evaluation_adult.py:
 - Code to evaluate anonymized data from anonymized/experiment_0
 
+anonymized/experiment_0:
+- Contains results for an experiment on the Adult dataset: 
+  - created VGHs depending on clustering and embedding used (from create_vgh_adult.py)
+  - Code to anonymize Adult data using generated VGHs (Baseline.java, Anonymize.java)
+  - anonymized data
+  - experimental results (from evaluation_adult.py > metrics.csv)
+  - visualizations of metrics.csv (evaluation.ipynb)
 
+    
 ## Acknowledgements
 
 The research project **EAsyAnon** (“Verbundprojekt: Empfehlungs- und Auditsystem zur Anonymisierung”, funding indicator: 16KISA128K) is funded by the European Union under the umbrella of the funding guideline “Forschungsnetzwerk Anonymisierung für eine sichere Datennutzung” from the German Federal Ministry of Education and Research (BMBF).
