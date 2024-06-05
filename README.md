@@ -1,10 +1,12 @@
 # ClustEm4Ano
-Implementation of methods for data anonymization through generalization and suppression. The implementations restrict on tabular data resp. microdata. The work was mostly done in context of the project **[EAsyAnon](#acknowledgements)**.
+Implementation of complementary methods for data anonymization through generalization and suppression.
+The repository contains code to generate value generalization hierarchies for nominal textual attributes in tabular data resp. microdata.
+The work was mostly done in context of the project **[EAsyAnon](#acknowledgements)**.
 
 
 ## Getting started
 
-Set up a Conda environment with Python 3.11 (ClustEm4Ano)
+Set up a Conda environment with Python 3.11 (clustem4ano)
 
 ```bash
 conda create -n clustem4ano python=3.11
