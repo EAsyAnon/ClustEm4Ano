@@ -18,15 +18,10 @@ Look, where this conda environment is stored
 conda info --envs
 ```
 
-Activate the environment in Terminal
+Activate the environment in Terminal and install requirements
 
 ```bash
 conda activate clustem4ano
-```
-
-Install requirements 
-
-```bash
 pip3 install -r requirements.txt
 pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11
 ```
