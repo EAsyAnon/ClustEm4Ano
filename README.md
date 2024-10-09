@@ -39,6 +39,10 @@ pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11
 │   └── utilitymetrics.py
 ├── anonymized
 │   └── experiment_0
+│       ├── Anonymize.java
+│       ├── Baseline.java
+│       ├── evaluation.ipynb
+│       └── metrics.csv
 ├── cluster
 │   ├── __init__.py
 │   └── cluster.py
