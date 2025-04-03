@@ -3,6 +3,30 @@ Implementation of complementary methods for data anonymization through generaliz
 The repository contains code to generate value generalization hierarchies for nominal textual attributes in tabular data resp. microdata.
 The work was mostly done in context of the project **[EAsyAnon](#acknowledgements)**.
 
+## Citation
+
+```bibtex
+@InProceedings{10.1007/978-3-031-83472-1_9,
+  author="Aufschl{\"a}ger, Robert
+  and Wilhelm, Sebastian
+  and Heigl, Michael
+  and Schramm, Martin",
+  editor="Chbeir, Richard
+  and Ilarri, Sergio
+  and Manolopoulos, Yannis
+  and Revesz, Peter Z.
+  and Bernardino, Jorge
+  and Leung, Carson K.",
+  title="ClustEm4Ano: Clustering Text Embeddings of Nominal Textual Attributes for Microdata Anonymization",
+  booktitle="Database Engineered Applications",
+  year="2025",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="122--137",
+  abstract="This work introduces ClustEm4Ano, an anonymization pipeline that can be used for generalization and suppression-based anonymization of nominal textual tabular data. It automatically generates value generalization hierarchies (VGHs) that, in turn, can be used to generalize attributes in quasi-identifiers. The pipeline leverages embeddings to generate semantically close value generalizations through iterative clustering. We applied KMeans and Hierarchical Agglomerative Clustering on 13 different predefined text embeddings (both open and closed-source (via APIs)). Our approach is experimentally tested on a well-known benchmark dataset for anonymization: The UCI Machine Learning Repository's Adult dataset. ClustEm4Ano supports anonymization procedures by offering more possibilities compared to using arbitrarily chosen VGHs. Experiments demonstrate that these VGHs can outperform manually constructed ones in terms of downstream efficacy (especially for small k-anonymity) and therefore can foster the quality of anonymized datasets. Our implementation is made public.",
+  isbn="978-3-031-83472-1"
+}
+```
 
 ## Getting started
 
